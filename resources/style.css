@@ -1,0 +1,24 @@
+@font-face {
+    font-family: sacramento;
+    src: url(Fontes/Sacramento-Regular.ttf);
+}
+
+body {
+    background-color: #E4D9DC;
+}
+
+nav {
+    background-color: #FFD4D4;
+    border: 10px;
+}
+
+.subtitulo {
+    font-family: sacramento;
+    font-size: x-large;
+}
+
+.B_v {
+    background-color: #FFD4D4;
+    padding: 10px;
+    border: 10px;
+}
