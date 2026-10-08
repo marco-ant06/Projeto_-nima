@@ -3,8 +3,14 @@
     src: url(Fontes/Sacramento-Regular.ttf);
 }
 
+@font-face {
+    font-family: montserrat;
+    src: url(Fontes/Montserrat-VariableFont_wght.ttf);
+}
+
 body {
     background-color: #E4D9DC;
+    font-family: montserrat;
 }
 
 nav {
@@ -21,4 +27,25 @@ nav {
     background-color: #FFD4D4;
     padding: 10px;
     border: 10px;
+}
+
+.B_f {
+    background-color: #EDB643;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #bdd8a4;
+}
+
+.btn:hover {
+    background-color: #feda18;
+}
+
+.row {
+    background-color: #FFD4D4;
+}
+
+.cart {
+    background-color: #bdd8a4;
 }
