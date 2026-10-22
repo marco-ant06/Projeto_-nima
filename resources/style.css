@@ -8,6 +8,11 @@
     src: url(Fontes/Montserrat-VariableFont_wght.ttf);
 }
 
+html {
+        scroll-behavior: smooth;
+        scroll-padding: 1rem;
+}
+
 body {
     background-color: #E4D9DC;
     font-family: montserrat;
@@ -48,4 +53,26 @@ nav {
 
 .cart {
     background-color: #bdd8a4;
+}
+
+form{
+    margin: 0 auto;
+    width: 250px;
+}
+
+.w_div{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.w_button{
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.w_button:hover{
+    background-color: rgba(255, 255, 255, 0.767);
 }
